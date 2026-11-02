@@ -12,7 +12,14 @@ Requisitos: **JDK 17** (inclui `java` e `javac`), PowerShell e conexão à inter
 
 Se o JDK 17 não estiver instalado, instale um pacote **JDK 17**, por exemplo o [Eclipse Temurin 17](https://adoptium.net/temurin/releases/?version=17), escolhendo o sistema e a arquitetura do computador. Reabra o PowerShell após a instalação. Somente o JRE não é suficiente para compilar.
 
-Extraia o ZIP da AV3 e abra a pasta `automanager`, onde estão `pom.xml` e `mvnw.cmd`. No Explorador de Arquivos, abra essa pasta, digite `powershell` na barra de endereço e pressione Enter. Não execute dentro do ZIP.
+**Com Git**, abra o PowerShell na pasta em que deseja salvar o projeto:
+
+```powershell
+git clone https://github.com/felipesgb/AV3-WEBIII.git
+cd .\AV3-WEBIII\automanager
+```
+
+**Sem Git**, use **Code > Download ZIP** no GitHub, extraia tudo e abra a pasta `automanager`, onde estão `pom.xml` e `mvnw.cmd`. No Explorador de Arquivos, abra essa pasta, digite `powershell` na barra de endereço e pressione Enter. Não execute dentro do ZIP.
 
 A estrutura é esta; o nome da pasta externa pode variar no ZIP (por exemplo, `AV3-WEBIII-main`):
 
